@@ -1,5 +1,13 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import Home from './Home';
+import Companies from './Companies';
+import Jobs from './Jobs';
+import Login from './Login';
+import Profile from './Profile';
+import Company from './Company';
+
+
 
 function Routes() {
     return (
