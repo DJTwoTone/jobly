@@ -9,7 +9,7 @@ import Company from './Company';
 
 
 
-function Routes() {
+function Routes({setToken}) {
     return (
         <div>
         <Switch>
@@ -26,7 +26,7 @@ function Routes() {
             </Route>
 
             <Route exact path="login">
-                <Login />
+                <Login setToken={setToken}/>
             </Route>
 
             <Route exact path="/profile">
