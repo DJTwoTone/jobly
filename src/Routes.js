@@ -42,12 +42,3 @@ function Routes({setToken}) {
 }
 
 export default Routes;
-
-
-
-//home
-//companies
-//companies:handle
-//jobs
-//login
-//profile
